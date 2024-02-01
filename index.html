@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+        <meta author='Gem Yubos'>
+        <link rel= 'stylesheet' href= 'style.css'>
+    </head>
+    <body>
+        <nav>
+            <h1>Simple Calculator</h1>
+        </nav>
+        <div class='inputs'>
+            <input class='inputClass1' placeholder='X' type='number'>
+            <div>
+                <select name='operations' id='oper'>
+                    <option value='multipplication'>*</option>
+                    <option value='division'>/</option>
+                    <option value='addition'>+</option>
+                    <option value='substraction'>-</option>           
+                </select>
+            </div>
+            <input class='inputClass2' placeholder='Y' type='number'>
+            <button onclick='solve(operation)' class='btn'>=</button>
+        </div>
+        <script src = 'func.js'></src>
+    </body>
+</html>

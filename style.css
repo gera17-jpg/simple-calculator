@@ -1,0 +1,36 @@
+.inputClass1{
+    width:50px;
+    color:tomato;
+    margin: 20px;
+}
+
+.inputClass2{
+    width:50px;
+    color:tomato;
+    margin: 20px;
+}
+
+#oper{
+    margin-left: 20px;;
+}
+h1{
+    color:red;
+}
+
+
+.ans{
+    padding:0;
+    margin:0;
+}
+h2{
+    color:brown;
+    font-size:100px;
+    padding:0;
+    margin: 0;
+    font-stretch: 20%;
+}
+
+.btn{
+    display:flex;
+    margin-left: 20px;
+}
